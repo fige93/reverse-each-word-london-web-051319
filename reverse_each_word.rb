@@ -1,7 +1,7 @@
 def reverse_each_word(string)
   stringArray = string.split()
   stringArray.collect do |x|
-    x
+    x.split("")
   end
 end
 
