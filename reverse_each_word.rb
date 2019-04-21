@@ -3,7 +3,6 @@ def reverse_each_word(string)
   stringArray.collect do |x|
     x.split("").reverse.join("")
   end
-  stringArray.join(" ")
 end
 
 #def reverse_each_word(string)
